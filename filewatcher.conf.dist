@@ -1,0 +1,12 @@
+#[main]
+#package = wget2
+#debug=1
+
+#[files]
+#files[0].source = /root/test.txt
+#files[0].destination = /tmp/test.txt
+#files[0].overwrite = true
+
+#files[1].source = /root/another_file.txt
+#files[1].destination = /tmp/another_file.txt
+#files[1].overwrite = true
